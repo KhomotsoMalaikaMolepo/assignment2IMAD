@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFF3E0">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#E65100"
+        android:padding="16dp"
+        android:text="Question goes here" />
+
+    <Button
+        android:id="@+id/btnTrue"
+        android:text="True"
+        android:backgroundTint="#81C784"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnFalse"
+        android:text="False"
+        android:backgroundTint="#E57373"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="Next"
+        android:backgroundTint="#64B5F6"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
